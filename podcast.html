@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Podcast | Mickey Osugi</title>
+<meta name="description" content="Upcoming podcast from Mickey Osugi.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-name">Mickey Osugi</div>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu">&#9776;</button>
+  <div class="nav-links" id="navLinks">
+    <a href="golf.html">Golf</a>
+    <a href="wellness.html">Wellness</a>
+    <a href="about.html">About</a>
+    <a href="podcast.html" class="active">Podcast</a>
+    <a href="contact.html">Book</a>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="hero-eyebrow">Podcast</div>
+  <h1>Coming soon.</h1>
+  <p>A new podcast on golf, wellness, and everything in between &mdash; hosted with two friends.</p>
+</section>
+
+<div class="content-block">
+  <p>Placeholder for podcast details &mdash; name, format, and release schedule once finalized. Once episodes are live, this page will embed the player directly (Spotify for Podcasters works well and is free) so visitors can listen without leaving the site.</p>
+</div>
+
+<section class="split-block">
+  <div class="split-photo"><div class="photo-placeholder" style="height:100%;border:none;"><div class="icon">&#127908;</div><span>Podcast artwork placeholder</span></div></div>
+  <div class="split-text">
+    <h3>Be the first to know</h3>
+    <p>Leave your email and you&rsquo;ll get a note the moment the first episode drops.</p>
+  </div>
+</section>
+
+<div class="form-block" style="border-top:none;">
+  <label for="podcast-email">Email</label>
+  <input type="email" id="podcast-email" placeholder="you@example.com">
+  <button class="btn-primary" type="button" onclick="alert('Form placeholder \u2014 connect to an email service like Mailchimp or a Wix-style form backend to make this functional.')">Notify me</button>
+</div>
+
+<footer class="footer">
+  <div class="footer-name">Mickey Osugi</div>
+  <div class="footer-contact">contact@micksfix.com</div>
+</footer>
+
+<script>
+document.getElementById('navToggle').addEventListener('click', function() {
+  document.getElementById('navLinks').classList.toggle('open');
+});
+</script>
+
+</body>
+</html>
