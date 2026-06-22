@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book | Mickey Osugi</title>
+<meta name="description" content="Book a golf lesson or PEMF wellness session with Mickey Osugi.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-name">Mickey Osugi</div>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu">&#9776;</button>
+  <div class="nav-links" id="navLinks">
+    <a href="lessons.html">Lessons</a>
+    <a href="wellness.html">Wellness</a>
+    <a href="about.html">About</a>
+    <a href="podcast.html">Podcast</a>
+    <a href="contact.html" class="book">Book</a>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <h1>Let&rsquo;s get started.</h1>
+  <p class="lead">Book a golf lesson, a PEMF wellness session, or just reach out with a question.</p>
+</section>
+
+<div class="section-intro">
+  <div class="label">Schedule</div>
+  <h2>Pick a time</h2>
+</div>
+<div class="form-wrap" style="max-width:560px;">
+  <p style="font-size:14px;font-weight:300;color:var(--ink-soft);text-align:center;line-height:1.8;">Your booking calendar will live here once we connect a free Calendly account &mdash; visitors pick an open time and you both get a confirmation automatically.</p>
+  <div class="calendly-placeholder">Calendly booking calendar</div>
+</div>
+
+<div class="section-intro">
+  <div class="label">Or reach out</div>
+  <h2>Send a message</h2>
+</div>
+<div class="form-wrap">
+  <label for="name">Name</label>
+  <input type="text" id="name" placeholder="Your name">
+  <label for="email">Email</label>
+  <input type="email" id="email" placeholder="you@example.com">
+  <label for="interest">I&rsquo;m interested in</label>
+  <input type="text" id="interest" placeholder="Golf lessons, PEMF wellness, or both">
+  <label for="message">Message</label>
+  <textarea id="message" rows="5" placeholder="Tell me a bit about what you&rsquo;re looking for"></textarea>
+  <button class="btn-primary" type="button" onclick="alert('This is a placeholder. We will connect it to a free form service (like Formspree) so messages actually reach your inbox.')">Send message</button>
+  <p style="font-size:12px;color:var(--ink-faint);margin-top:24px;text-align:center;">Prefer email? Reach me at <a href="mailto:contact@micksfix.com" style="color:var(--crimson);">contact@micksfix.com</a></p>
+</div>
+
+<footer class="footer">
+  <div class="fname">Mickey Osugi</div>
+  <div class="fcontact">contact@micksfix.com</div>
+</footer>
+
+<script>
+document.getElementById('navToggle').addEventListener('click', function() {
+  document.getElementById('navLinks').classList.toggle('open');
+});
+</script>
+</body>
+</html>

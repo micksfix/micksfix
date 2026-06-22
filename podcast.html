@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Podcast | Mickey Osugi</title>
+<meta name="description" content="Upcoming podcast from Mickey Osugi on golf, wellness, and everything in between.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-name">Mickey Osugi</div>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu">&#9776;</button>
+  <div class="nav-links" id="navLinks">
+    <a href="lessons.html">Lessons</a>
+    <a href="wellness.html">Wellness</a>
+    <a href="about.html">About</a>
+    <a href="podcast.html">Podcast</a>
+    <a href="contact.html" class="book">Book</a>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <h1>Coming soon.</h1>
+  <p class="lead">A new podcast on golf, wellness, and everything in between &mdash; hosted with two friends.</p>
+</section>
+
+<div class="prose" style="text-align:center;">
+  <p>We&rsquo;re putting the finishing touches on something fun.</p>
+  <div class="placeholder-note" style="text-align:left;">[Podcast name, format, and release schedule once finalized. When episodes go live, this page will embed the player directly so visitors can listen without leaving the site.]</div>
+  <p>Leave your email and you&rsquo;ll know the moment the first episode drops.</p>
+</div>
+
+<div class="form-wrap">
+  <label for="podcast-email">Email</label>
+  <input type="email" id="podcast-email" placeholder="you@example.com">
+  <button class="btn-primary" type="button" onclick="alert('This is a placeholder. We will connect it to an email signup service (like Mailchimp) so addresses are actually collected.')">Notify me</button>
+</div>
+
+<footer class="footer">
+  <div class="fname">Mickey Osugi</div>
+  <div class="fcontact">contact@micksfix.com</div>
+</footer>
+
+<script>
+document.getElementById('navToggle').addEventListener('click', function() {
+  document.getElementById('navLinks').classList.toggle('open');
+});
+</script>
+</body>
+</html>

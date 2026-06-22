@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Golf Lessons | Mickey Osugi</title>
+<meta name="description" content="Golf lessons for every age and level with Mickey Osugi. Beginners welcome.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-name">Mickey Osugi</div>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu">&#9776;</button>
+  <div class="nav-links" id="navLinks">
+    <a href="lessons.html">Lessons</a>
+    <a href="wellness.html">Wellness</a>
+    <a href="about.html">About</a>
+    <a href="podcast.html">Podcast</a>
+    <a href="contact.html" class="book">Book</a>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <h1>Golf lessons for every level.</h1>
+  <p class="lead">Beginners, juniors, weekend players, and competitors &mdash; lessons meet you exactly where you are.</p>
+</section>
+
+<div class="photo-band">
+  <div class="icon">&#9971;</div>
+  <span>Photo placeholder</span>
+</div>
+
+<div class="prose">
+  <h3>Everyone starts somewhere</h3>
+  <p>Golf is hard enough without feeling judged for where you&rsquo;re starting. Beginners are genuinely welcome here &mdash; so are juniors, weekend players, and anyone who wants to get more out of their game. Lessons meet you where you are, not where someone thinks you should be.</p>
+
+  <h3>What a lesson looks like</h3>
+  <p>Every lesson starts with watching how you actually move and swing, rather than forcing you into a one-size-fits-all template. From there we work on the fundamentals that hold up under pressure &mdash; a solid setup, good sequencing, and a swing you can repeat. The goal isn&rsquo;t a picture-perfect swing for its own sake; it&rsquo;s a swing that works for your body and gets the ball where you want it.</p>
+
+  <h3>Who it&rsquo;s for</h3>
+  <p>Total beginners who want to start the right way. Juniors building a foundation. Adults knocking the rust off or finally taking the game seriously. Competitive players fine-tuning the details. All ages, all levels &mdash; all welcome.</p>
+
+  <h3>Want to know more about me?</h3>
+  <p>If you&rsquo;re curious about my own background in the game &mdash; how I play, what I believe about the swing, and the road that got me here &mdash; there&rsquo;s more on the About page. Otherwise, the best way to start is simply to book a session.</p>
+</div>
+
+<div class="cta">
+  <a class="btn-primary" href="contact.html">Book a lesson</a>
+</div>
+
+<footer class="footer">
+  <div class="fname">Mickey Osugi</div>
+  <div class="fcontact">contact@micksfix.com</div>
+</footer>
+
+<script>
+document.getElementById('navToggle').addEventListener('click', function() {
+  document.getElementById('navLinks').classList.toggle('open');
+});
+</script>
+</body>
+</html>
